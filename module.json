@@ -9,23 +9,37 @@
    "packs": [
     {
       "name": "items",
-      "label": "My Items",
+      "label": "Items",
       "path": "packs/items.db",
       "entity": "Item",
       "module": "Runelord_Data"
     },
     {
-      "name": "monsters",
-      "label": "My Monsters",
-      "path": "packs/monsters.db",
+      "name": "actors",
+      "label": "Actors",
+      "path": "packs/actors.db",
       "entity": "Actor",
       "module": "Runelord_Data"
     },
     {
       "name": "scenes",
-      "label": "My Scenes",
+      "label": "Scenes",
       "path": "packs/scenes.db",
       "entity": "Scene",
+      "module": "Runelord_Data"
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros.db",
+      "entity": "Macro",
+      "module": "Runelord_Data"
+    },
+    {
+      "name": "journalEntries",
+      "label": "Journal Entries",
+      "path": "packs/journalentries.db",
+      "entity": "JournalEntry",
       "module": "Runelord_Data"
     }
   ]
